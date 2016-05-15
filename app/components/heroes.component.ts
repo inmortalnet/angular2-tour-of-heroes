@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router-deprecated';
 
-import { Hero } from './hero.class';
+import { Hero } from '../models/hero.class';
 import { HeroDetailComponent } from './hero-detail.component';
-import { HeroService } from './hero.service';
+import { HeroService } from '../services/hero.service';
 
 @Component({
   selector: 'my-heroes',
-  styleUrls: ['app/heroes.component.css'],
-  templateUrl: 'app/heroes.component.html',
+  styleUrls: ['app/styles/heroes.component.css'],
+  templateUrl: 'app/views/heroes.component.html',
     directives: [HeroDetailComponent]
 })
 export class HeroesComponent implements OnInit {

@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/router-deprecated';
 
-import { HeroService } from './hero.service';
+import { HeroService } from '../services/hero.service';
 import { HeroDetailComponent } from './hero-detail.component';
 import { HeroesComponent } from './heroes.component';
 import { DashboardComponent } from './dashboard.component';
 
 @Component({
   selector: 'my-app',
-  styleUrls: ['app/app.component.css'],
+  styleUrls: ['app/styles/app.component.css'],
   template: `
     <h1>{{title}}</h1>
     <nav>

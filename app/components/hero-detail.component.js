@@ -10,8 +10,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var router_deprecated_1 = require('@angular/router-deprecated');
-var hero_service_1 = require('./hero.service');
-var hero_class_1 = require('./hero.class');
+var hero_service_1 = require('../services/hero.service');
+var hero_class_1 = require('../models/hero.class');
 var HeroDetailComponent = (function () {
     function HeroDetailComponent(heroService, routeParams) {
         this.heroService = heroService;
@@ -33,8 +33,8 @@ var HeroDetailComponent = (function () {
     HeroDetailComponent = __decorate([
         core_1.Component({
             selector: 'my-hero-detail',
-            styleUrls: ['app/hero-detail.component.css'],
-            templateUrl: 'app/hero-detail.component.html'
+            styleUrls: ['app/styles/hero-detail.component.css'],
+            templateUrl: 'app/views/hero-detail.component.html'
         }), 
         __metadata('design:paramtypes', [hero_service_1.HeroService, router_deprecated_1.RouteParams])
     ], HeroDetailComponent);
