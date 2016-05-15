@@ -5,8 +5,9 @@ ehthumbs.db
 # Folder config file
 Desktop.ini
 
-# Installed Node Modules
+# Installed Node Modules / Typings
 node_modules/
+typings/
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
