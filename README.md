@@ -6,4 +6,4 @@ To run this demo, please do the following:
   * In your terminal type 'npm install' while located at the project folder level
   * Finally compile and run with 'npm start'
 
-If you have problems refer to the angular quickstart page here: https://angular.io/docs/ts/latest/quickstart.html
+If you have problems refer to the angular quick start page here: https://angular.io/docs/ts/latest/quickstart.html
