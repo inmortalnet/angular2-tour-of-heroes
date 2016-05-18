@@ -28,20 +28,9 @@ var AppComponent = (function () {
             providers: [router_deprecated_1.ROUTER_PROVIDERS, hero_service_1.HeroService]
         }),
         router_deprecated_1.RouteConfig([
-            {
-                path: '/dashboard',
-                name: 'Dashboard',
-                component: dashboard_component_1.DashboardComponent,
-                useAsDefault: true
-            }, {
-                path: '/heroes',
-                name: 'Heroes',
-                component: heroes_component_1.HeroesComponent
-            }, {
-                path: '/detail/:id',
-                name: 'HeroDetail',
-                component: hero_detail_component_1.HeroDetailComponent
-            }
+            { path: '/dashboard', name: 'Dashboard', component: dashboard_component_1.DashboardComponent, useAsDefault: true },
+            { path: '/heroes', name: 'Heroes', component: heroes_component_1.HeroesComponent },
+            { path: '/detail/:id', name: 'HeroDetail', component: hero_detail_component_1.HeroDetailComponent }
         ]), 
         __metadata('design:paramtypes', [hero_service_1.HeroService])
     ], AppComponent);
