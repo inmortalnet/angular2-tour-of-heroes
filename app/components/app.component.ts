@@ -9,14 +9,7 @@ import { DashboardComponent } from './dashboard.component';
 @Component({
   selector: 'my-app',
   styleUrls: ['app/styles/app.component.css'],
-  template: `
-    <h1>{{title}}</h1>
-    <nav>
-      <a [routerLink]="['Dashboard']">Dashboard</a>
-      <a [routerLink]="['Heroes']">Heroes</a>
-    </nav>
-    <router-outlet></router-outlet>
-  `,
+  templateUrl: 'app/views/app.component.html',
   directives: [ROUTER_DIRECTIVES],
   providers: [ROUTER_PROVIDERS, HeroService]
 })
