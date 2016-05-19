@@ -9,7 +9,7 @@ import { HeroService } from '../services/hero.service';
   selector: 'my-heroes',
   styleUrls: ['app/styles/heroes.component.css'],
   templateUrl: 'app/views/heroes.component.html',
-    directives: [HeroDetailComponent]
+  //directives: [HeroDetailComponent]
 })
 export class HeroesComponent implements OnInit {
   //title = "Tour of Heroes";

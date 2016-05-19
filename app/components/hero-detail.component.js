@@ -32,7 +32,7 @@ var HeroDetailComponent = (function () {
     ], HeroDetailComponent.prototype, "hero", void 0);
     HeroDetailComponent = __decorate([
         core_1.Component({
-            selector: 'my-hero-detail',
+            //selector: 'my-hero-detail',
             styleUrls: ['app/styles/hero-detail.component.css'],
             templateUrl: 'app/views/hero-detail.component.html'
         }), 
